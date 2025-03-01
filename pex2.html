@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Hero Section with Navbar</title>
+    <link rel="stylesheet" href="pex2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="hero">
+        <nav class="navbar">
+            <h2 class="logo">MyPortfolio</h2>
+            <div class="menu-icon" id="menu-icon">
+                <i class="fa fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Cybersecurity Enthusiast | Ethical Hacker | Developer</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+                I am Krrish Molla, a passionate web developer and cybersecurity enthusiast with a strong background in C++, C, Linux (Parrot OS), and ethical hacking. I enjoy building secure, efficient, and user-friendly applications while continuously learning about new technologies
+            <p>
+                Currently, I am pursuing my BCA in Cybersecurity, where I enhance my programming
+                and security analysis skills. I also enjoy participating in bug bounty programs
+                and working with open-source projects to strengthen my expertise.
+            </p>
+            <p>
+                My goal is to combine web development with security best practices to create
+                applications that are both powerful and resilient. I believe in continuous learning
+                and staying updated with the latest trends in AI, ML, and cybersecurity.
+            </p>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/krrish-molla-a723691b0" target="_blank" class="social-btn linkedin">
+                    LinkedIn
+                </a>
+                <a href="https://github.com/krrishK20" target="_blank" class="social-btn github">
+                    GitHub
+                </a>
+                <a href="krrrihmolla123@gmail.com" class="social-btn contact">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <div class="skills-row">
+                <div class="skill-col">
+                    <img src="https://wallpaperaccess.com/full/11104444.jpg" alt="HTML/CSS/JavaScript">
+                    <h3>HTML, CSS & JavaScript</h3>
+                    <p>Experienced in creating responsive and dynamic web applications.</p>
+                </div>
+                <div class="skill-col">
+                    <img src="https://wallpaperaccess.com/full/9425017.jpg" alt="C++">
+                    <h3>C++ & C</h3>
+                    <p>Strong understanding of object-oriented programming and system-level programming.</p>
+                </div>
+                <div class="skill-col">
+                    <img src="https://wallpaperaccess.com/full/2671296.png" alt="Linux">
+                    <h3>Linux (Parrot OS)</h3>
+                    <p>Skilled in Linux-based security testing, ethical hacking, and system administration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Me</h3>
+                <p>Web developer & cybersecurity enthusiast. Building secure and modern websites.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <p><a href="#">Home</a> | <a href="#">Portfolio</a> | <a href="krrishmolla16@gmail.com">Contact</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/krrish.molla.94/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://x.com/krrish126"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/krrrishhh___090/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2025 krrish molla . All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navLinks = document.getElementById('nav-links');
+
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
